@@ -4,8 +4,8 @@ package jcloner;
  * Cloner exception.
  * 
  * @author Faruk BOZAN
- * @since 15.4.3
- * @version 15.4.3
+ * @since 15.4.5
+ * @version 15.4.5
  *
  */
 public class ClonerException extends Exception {
@@ -19,9 +19,9 @@ public class ClonerException extends Exception {
 	 * Single parameter constructor.
 	 * 
 	 * @param e
-	 *            Throwable instance.
+	 *            Exception instance.
 	 */
-	public ClonerException(Throwable e) {
+	public ClonerException(Exception e) {
 		super("An exception occurs during clone operation", e);
 	}
 
