@@ -10,7 +10,7 @@ import java.io.ObjectOutputStream;
 
 /**
  * This class is file based object cloner. Source object is written to a file
- * and then is read from file again.
+ * and then is read from file again. cloner.jcloner is the default name of file.
  * 
  * @author Faruk BOZAN
  * @since 15.4.5
